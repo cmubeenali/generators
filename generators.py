@@ -31,6 +31,7 @@ while True:
                 arr_running_tasks.remove(r_task)
                 if r_task['task_code']==0:
                     curr_routine=0
+                    break
                 else:
                     curr_routine=1
             else:
